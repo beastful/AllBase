@@ -4,6 +4,22 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # 1. Создаем список книг и их описания
+
+books_model = [
+    {
+        "name": "XJAVA",
+        "des": "Description"
+    },
+    {
+        "name": "XJAVA",
+        "des": "Description"
+    },
+    {
+        "name": "XJAVA",
+        "des": "Description"
+    },
+]
+
 books = {
     'Название книги': [
         'Java для чайников. 7-е изд.', 
